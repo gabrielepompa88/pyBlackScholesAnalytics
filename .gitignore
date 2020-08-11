@@ -12,3 +12,6 @@ Personal_Notes/*
 
 # ignore PyCharm project folder
 pyBlackScholesAnalytics/.idea
+
+# ignore setup.py file
+setup.py
