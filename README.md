@@ -15,6 +15,22 @@ I held at the University of Siena for the Master degree in Finance in 2020.
 for students to master financial concepts related to options and option strategies and implementing a dedicated comprehensive
 object-oriented architecture.
 
+# Contents:
+
+The current version of the package features the following modules:
+
+- `options`: definitions for `EuropeanOption` abstract base-class as well 
+as `PlainVanillaOption` and `DigitalOption` derived classes
+
+- `portfolio`: definition of `Portfolio` class implementing analytics for portfolios of options
+
+- `plotter`: definitions for `Plotter` abstract base-class as well 
+as `OptionPlotter` and `PortfolioPlotter` derived classes
+
+- `utils`: definition of general utility functions
+
+- `numeric_routines`: definition of `NumericGreeks` class implementing option greeks through finite-difference methods
+
 # Resources 
 
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) comes with several [examples](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/pyblackscholesanalytics) (`example_*.py` files) to explore the features of the package. A series of 4 Jupyter notebooks introduces step-by step the ideas of the Object-Oriented paradygm as improvements over sequential implementations:
