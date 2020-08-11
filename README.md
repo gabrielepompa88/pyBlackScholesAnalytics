@@ -28,5 +28,9 @@ Derivatives Analytics - Inheritance and Polymorphism](https://github.com/gabriel
 Finally, YouTube video-lectures are provided for each notebook: 
 
 - []()
-in which I tried to introduce the package in a constructive way as a step-by-step formalization of plausible
-business requirements into object-oriented styles.
+
+# Contacts
+
+This is still an alpha version, so if you have comments or suggestions you can reach Gabriele Pompa (_gabriele.pompa@gmail.com_). If you wish to contribute, please contact me through [GitHub/gabrielepompa88](https://github.com/gabrielepompa88). If you are interested but feel a bit new to Python, I can recommend the open ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) as a reasonable starting point. 
+
+Thank you in advance for your attention.
