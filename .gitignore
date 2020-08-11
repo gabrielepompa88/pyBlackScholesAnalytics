@@ -4,6 +4,9 @@ Notebooks/.ipynb_checkpoints/
 # ignore Python compiled files
 *.pyc
 
+# ignore token files
+*.pypirc
+
 # Notes folder ignored
 !Personal_Notes/
 Personal_Notes/**
