@@ -1,0 +1,14 @@
+# Notebooks checkpoints ignored
+Notebooks/.ipynb_checkpoints/
+
+# ignore Python compiled files
+*.pyc
+
+# Notes folder ignored
+!Personal_Notes/
+Personal_Notes/**
+Personal_Notes/*
+!Personal_Notes/README.md
+
+# ignore PyCharm project folder
+pyBlackScholesAnalytics/.idea
