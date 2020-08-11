@@ -21,6 +21,11 @@ setup.py
 dist/**
 dist/*
 
+# build folder ignored
+!build/
+build/**
+build/*
+
 # pyBlackScholesAnalytics_gabrielepompa88.egg-info ignored
 !pyBlackScholesAnalytics_gabrielepompa88.egg-info/
 pyBlackScholesAnalytics_gabrielepompa88.egg-info/**
