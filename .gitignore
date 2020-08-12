@@ -1,5 +1,5 @@
 # Notebooks checkpoints ignored
-Notebooks/.ipynb_checkpoints/
+Notebook_Tutorials/.ipynb_checkpoints/
 
 # ignore Python compiled files
 *.pyc
