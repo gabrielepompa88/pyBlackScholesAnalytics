@@ -14,10 +14,10 @@ and digital option contracts.
 
 import numpy as np
 
-from market.market import MarketEnvironment
-from options.options import PlainVanillaOption, DigitalOption
-from utils.numeric_routines import NumericGreeks
-from utils.utils import plot, homogenize
+from pyblackscholesanalytics.market.market import MarketEnvironment
+from pyblackscholesanalytics.options.options import PlainVanillaOption, DigitalOption
+from pyblackscholesanalytics.utils.numeric_routines import NumericGreeks
+from pyblackscholesanalytics.utils.utils import plot, homogenize
 
 def option_factory(mkt_env, plain_or_digital, option_type):
 

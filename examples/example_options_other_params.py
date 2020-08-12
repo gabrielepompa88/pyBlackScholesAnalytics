@@ -1,60 +1,58 @@
 """
 Created by: Gabriele Pompa (gabriele.pompa@gmail.com)
 
-File: example_portfolio_single_strike.py
+File: example_options_other_params.py
 
 Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
     
-This script shows basic usage of Portfolio class to construct a derivative 
-portfolio of plain-vanilla and digital option contracts. Basic instantiation 
-examples are provided with combinations of the underlying level (S), 
-strike-price (K), time parameter (t/tau) as well as underlying volatility 
-(sigma) and short-rate (r) parameters. Price, P&L, first-order greeks are 
-computed for single-strike portfolio.
+This script shows usage of PlainVanillaOption and DigitalOption classes.
+Instantiation examples are provided involving combinations of the underlying
+level (S), strike-price (K), time parameter (t/tau), as well as underlying 
+volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order 
+greeks as well as Black-Scholes implied-volatilies are computed for 
+plain-vanilla and digital option contracts.
 """
 
 import numpy as np
 import pandas as pd
 import warnings
 
-from utils.utils import date_string_to_datetime_obj
-from market.market import MarketEnvironment
-from options.options import PlainVanillaOption, DigitalOption
-from portfolio.portfolio import Portfolio
+from pyblackscholesanalytics.market.market import MarketEnvironment
+from pyblackscholesanalytics.options.options import PlainVanillaOption, DigitalOption
 
 warnings.filterwarnings("ignore")
 
-def option_factory(mkt_env, plain_or_digital, option_type, **kwargs):
+def option_factory(mkt_env, plain_or_digital, option_type):
 
     option_dispatcher = {
-            "plain_vanilla": {"call": PlainVanillaOption(mkt_env, **kwargs),
-                              "put":  PlainVanillaOption(mkt_env, option_type="put", **kwargs)
+            "plain_vanilla": {"call": PlainVanillaOption(mkt_env),
+                              "put":  PlainVanillaOption(mkt_env, option_type="put")
                              },
-            "digital": {"call": DigitalOption(mkt_env, **kwargs),
-                        "put":  DigitalOption(mkt_env, option_type="put", **kwargs)
+            "digital": {"call": DigitalOption(mkt_env),
+                        "put":  DigitalOption(mkt_env, option_type="put")
                        }
     }
     
     return option_dispatcher[plain_or_digital][option_type]
 
-def get_param_dict_single_K_ptf(portfolio, np_output, case, T):
+def get_param_dict(option, np_output, case):
     
     # S
-    S_vector = [60, 90, 120]
+    S_vector = [90, 100, 110]
     mS = len(S_vector)
     
     # K
-    K_vector = [55, 75, 95, 115]
+    K_vector = [75, 85, 90, 95, 105, 115]
     mK = len(K_vector)
 
-    # tau: a date-range of 5 valuation dates
+    # tau: a date-range of 5 valuation dates between t and T-10d
     n = 5
-    valuation_date = portfolio.get_t()
-    expiration_date = T
+    valuation_date = option.get_t()
+    expiration_date = option.get_T()
     t_vector = pd.date_range(start=valuation_date, 
-                             end=expiration_date, 
+                             end=expiration_date-pd.Timedelta(days=10), 
                              periods=n)    
     # sigma
     sigma_axis = np.array([0.1*(1 + i) for i in range(3)])
@@ -286,77 +284,18 @@ def get_param_dict_single_K_ptf(portfolio, np_output, case, T):
 
 def main():
 
-    #
-    # portfolio instantiation example
-    #
-    
     # if np_output is True, the output will be np.ndarray, otherwise pd.DataFrame    
     np_output = False # True
-        
+    
     # default market environment
-    market_env = MarketEnvironment(t="01-06-2020")
+    market_env = MarketEnvironment()
     print(market_env)
-
-    # underlying values to test
-    S_vector = [60, 90, 120]
-    print("S_vector: {}\n".format(S_vector))
     
-    # options maturities
-    T_call = "31-12-2020"
-    T_put = "30-06-2021"
-    
-    # options strikes are the same: single-strike portfolio can be evaluated
-    # at different strike-price too
-    K = 90
-    K_put = K
-    K_call = K
-    
-    # portfolio options positions
-    call_pos = 2
-    put_pos = -5
-
-    #
-    # Step 0: empty portfolio initialized
-    #
-    
-    ptf = Portfolio()
-    print(ptf)
-    
-    #
-    # Step 1: adding 2 long plain-vanilla call contracts
-    #
-    
-    # plain-vanilla call option
-    opt1_style = "plain_vanilla" # "digital"
-    opt1_type = "call" # "put"   
-    call = option_factory(market_env, opt1_style, opt1_type, K=K_call, T=T_call)
-    print(call)
-    
-    # adding contract to portfolio  
-    ptf.add_instrument(call, call_pos)
-    print(ptf)
-    
-    #
-    # Step 2: adding 5 short plain-vanilla put contracts
-    #
-
-    # plain-vanilla put option
-    opt2_style = "plain_vanilla" # "digital"
-    opt2_type = "put" # "call"   
-    put = option_factory(market_env, opt2_style, opt2_type, K=K_put, T=T_put)
-    print(put)
-    
-    # plain-vanilla put option
-    put = PlainVanillaOption(market_env, option_type="put", K=K_put, T=T_put)
-    print(put)
-    
-    # adding contract to portfolio  
-    ptf.add_instrument(put, put_pos)
-    print(ptf)
-    
-    #
-    # Step 3: portfolio evaluation
-    #
+    # define option style and type
+    opt_style = "plain_vanilla" # "digital"
+    opt_type = "call" # "put"   
+    option = option_factory(market_env, opt_style, opt_type)
+    print(option)
     
     for case in ['All_scalar', \
                  'S', 'S.sigma_distributed', 'S.r_distributed', 'S.sigma_and_r_distributed', \
@@ -367,7 +306,7 @@ def main():
                  't.sigma_axis', 't.r_axis']:
     
         # get parameters dictionary for case considered
-        param_dict, case_info = get_param_dict_single_K_ptf(ptf, np_output, case, T=min(T_call, T_put, key=date_string_to_datetime_obj))
+        param_dict, case_info = get_param_dict(option, np_output, case)
     
         print("\n--------------------------------------------\n")
         print("\n" + case_info + "\n")
@@ -380,25 +319,29 @@ def main():
         print("r: {}\n".format(param_dict["r"]))
         
         print("Metrics:")
+        print("Payoff:\n", option.payoff(**param_dict))
+        print("\nPrice upper limit:\n", option.price_upper_limit(**param_dict))
+        print("\nPrice lower limit:\n", option.price_lower_limit(**param_dict))
+        print("\nPrice:\n", option.price(**param_dict))
+        print("\nP&L:\n", option.PnL(**param_dict))
+        print("\nDelta:\n", option.delta(**param_dict))
+        print("\nTheta:\n", option.theta(**param_dict))
+        print("\nGamma:\n", option.gamma(**param_dict))
+        print("\nVega:\n", option.vega(**param_dict))
+        print("\nRho:\n", option.rho(**param_dict))
 
-        # metrics to compare
-        for metrics in ["price", "PnL", "delta", "theta", "gamma", "vega", "rho"]:
-       
-            # portfolio metrics
-            ptf_metrics = getattr(ptf, metrics)(**param_dict)
-            print("\nPortfolio {}:\n{}".format(metrics, ptf_metrics))
-    
-            # verification with benchmark metrics
-            call_metrics = getattr(call, metrics)(**param_dict)
-            put_metrics = getattr(put, metrics)(**param_dict)
-            benchmark_metrics = call_pos * call_metrics + put_pos * put_metrics
-            print("\nBenchmark {}:\n{}".format(metrics, benchmark_metrics))
-    
-            # check effective match
-            diff = (ptf_metrics - benchmark_metrics).astype('float')
-            num_nonzero_diff = np.count_nonzero(diff) - np.isnan(diff).sum().sum()
-            exact_match = True if num_nonzero_diff == 0 else False
-            print("\nIs replication exact (NaN excluded)? {}\n".format(exact_match))
+        # Implied volatility calculation is not implemented for x-axis 
+        # (columns) spanned by sigma
+        if ('sigma_axis' not in param_dict) or (param_dict['sigma_axis'] == False):
+            
+            print("\nExpected Implied Volatility: \n{}\n".format(param_dict["sigma"]))
+
+            print("\nImplied Volatility - Newton method:\n{}\n"\
+                  .format(option.implied_volatility(**param_dict)))
+            
+            param_dict["minimization_method"] = "Least-Squares"
+            print("\nImplied Volatility - Least-Squares constrained method:\n{}\n"\
+                  .format(option.implied_volatility(**param_dict)))
 
 #----------------------------- usage example ---------------------------------#
 if __name__ == "__main__":

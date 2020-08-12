@@ -20,10 +20,10 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-from market.market import MarketEnvironment
-from portfolio.portfolio import Portfolio
-from options.options import PlainVanillaOption
-from plotter.plotter import PortfolioPlotter
+from pyblackscholesanalytics.market.market import MarketEnvironment
+from pyblackscholesanalytics.portfolio.portfolio import Portfolio
+from pyblackscholesanalytics.options.options import PlainVanillaOption
+from pyblackscholesanalytics.plotter.plotter import PortfolioPlotter
 
 def options_x_axis_parameters_factory(option, parameter_name):
     

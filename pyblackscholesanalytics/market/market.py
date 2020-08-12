@@ -12,7 +12,7 @@ This file contains the definition of MarketEnvironment class.
 
 # ----------------------- sub-modules imports ------------------------------- #
 
-from utils.utils import date_string_to_datetime_obj
+from pyblackscholesanalytics.utils.utils import date_string_to_datetime_obj
 
 #-----------------------------------------------------------------------------#
 

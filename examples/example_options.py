@@ -18,8 +18,8 @@ import numpy as np
 import pandas as pd
 import warnings
 
-from market.market import MarketEnvironment
-from options.options import PlainVanillaOption, DigitalOption
+from pyblackscholesanalytics.market.market import MarketEnvironment
+from pyblackscholesanalytics.options.options import PlainVanillaOption, DigitalOption
 
 warnings.filterwarnings("ignore")
 

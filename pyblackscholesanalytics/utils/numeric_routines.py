@@ -11,7 +11,7 @@ import numpy as np
 
 # ----------------------- sub-modules imports ------------------------------- #
 
-from utils.utils import *
+from pyblackscholesanalytics.utils.utils import *
 
 #-----------------------------------------------------------------------------#
 

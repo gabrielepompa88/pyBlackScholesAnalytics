@@ -14,9 +14,9 @@ plain-vanilla and digital option contracts.
 
 import pandas as pd
 
-from market.market import MarketEnvironment
-from options.options import PlainVanillaOption, DigitalOption
-from plotter.plotter import OptionPlotter
+from pyblackscholesanalytics.market.market import MarketEnvironment
+from pyblackscholesanalytics.options.options import PlainVanillaOption, DigitalOption
+from pyblackscholesanalytics.plotter.plotter import OptionPlotter
 
 def option_factory(mkt_env, plain_or_digital, option_type):
 

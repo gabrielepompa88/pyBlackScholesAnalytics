@@ -35,7 +35,7 @@ import warnings
 
 # ----------------------- sub-modules imports ------------------------------- #
 
-from utils.utils import *
+from pyblackscholesanalytics.utils.utils import *
 
 #-----------------------------------------------------------------------------#
 

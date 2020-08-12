@@ -26,7 +26,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 # ----------------------- sub-modules imports ------------------------------- #
 
-from utils.utils import *
+from pyblackscholesanalytics.utils.utils import *
 
 #-----------------------------------------------------------------------------#
 

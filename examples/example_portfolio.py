@@ -18,10 +18,10 @@ constituent options metrics.
 import numpy as np
 import pandas as pd
 
-from utils.utils import date_string_to_datetime_obj
-from market.market import MarketEnvironment
-from options.options import PlainVanillaOption
-from portfolio.portfolio import Portfolio
+from pyblackscholesanalytics.utils.utils import date_string_to_datetime_obj
+from pyblackscholesanalytics.market.market import MarketEnvironment
+from pyblackscholesanalytics.options.options import PlainVanillaOption
+from pyblackscholesanalytics.portfolio.portfolio import Portfolio
 
 def get_time_parameter(mkt_env, end_date, periods, kind='date', multi_horizon_ptf=True):
     
