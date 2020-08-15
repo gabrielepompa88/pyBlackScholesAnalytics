@@ -1,4 +1,4 @@
-<img src="images/pyBlackScholesAnalytics_logo.png" width="200">
+<img src="images/pyBlackScholesAnalytics_logo.png" width="400", title="hover text", stlye="max-width:100%">
 
 # pyBlackScholesAnalytics
 
