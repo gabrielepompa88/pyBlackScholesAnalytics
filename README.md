@@ -1,4 +1,4 @@
-![](Personal_Notes/pyBlackScholesAnalytics.png)
+![](images/pyBlackScholesAnalytics_logo.png)
 
 # pyBlackScholesAnalytics
 
