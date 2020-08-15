@@ -29,7 +29,7 @@ as `OptionPlotter` and `PortfolioPlotter` derived classes
 
 # Resources 
 
-[**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) features several [examples](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/examples) that can be used as entry-point to explore the features of the package. 
+[**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) comes with several [examples](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/examples) that can be used as entry-point to explore the features of the package. 
 
 As far as the educational purpose is concerned, I find the [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package itself important as much as the way in which its final version can be progressively built. In my experience the constructive approach is ubiquitous in the real life of a Quant/Strats: a business need is first formulated, then tackled with a _ad hoc_ analysis, a tactic short-term implementation of the response is then produced and, finally, a strategic and robust long-term response is designed and implemented. For this reason, the package is complemented by a series of 4 Jupyter Notebooks presenting the package step-by step in a constructive way building on the ideas of the Object-Oriented paradygm as improvements over sequential implementations of the same financial concepts:
 - [
