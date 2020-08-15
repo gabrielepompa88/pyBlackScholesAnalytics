@@ -50,7 +50,14 @@ Finally, YouTube video-lectures are provided for each notebook:
 
 - [![IMAGE ALT TEXT](http://img.youtube.com/vi/PLRIS0g8TmV1NI7lr2I7BF9wdJ_PK9mVAz/0.jpg)](http://www.youtube.com/watch?v=PLRIS0g8TmV1NI7lr2I7BF9wdJ_PK9mVAz "Video Title")
 
-- <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLRIS0g8TmV1NI7lr2I7BF9wdJ_PK9mVAz" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- https://www.youtube.com/playlist?list=PLRIS0g8TmV1NI7lr2I7BF9wdJ_PK9mVAz
+
+|          |      Jupyter Notebook      |  Youtube Playlist |
+|----------|:--------------------------:|------------------:|
+| col 1 is | [
+Derivatives Analytics - Introduction to Object Oriented Programming](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Introduction_to_OOP.ipynb) | [OOP Introduction]( https://www.youtube.com/playlist?list=PLRIS0g8TmV1NI7lr2I7BF9wdJ_PK9mVAz) |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 # Contacts
 
