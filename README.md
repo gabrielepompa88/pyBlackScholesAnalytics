@@ -31,7 +31,7 @@ as `OptionPlotter` and `PortfolioPlotter` derived classes
 
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) features several [examples](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/examples) that can be used as entry-point to explore the features of the package. 
 
-As far as the educational purpose is concerned, I find the [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package itself important as much as the way in which its final version can be progrissevely built. For this reason, the package is complemented by a series of 4 Jupyter notebooks presenting the package step-by step in a constructive way building on the ideas of the Object-Oriented paradygm as improvements over sequential implementations of the same financial concepts:
+As far as the educational purpose is concerned, I find the [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package itself important as much as the way in which its final version can be progressively built. For this reason, the package is complemented by a series of 4 Jupyter Notebooks presenting the package step-by step in a constructive way building on the ideas of the Object-Oriented paradygm as improvements over sequential implementations of the same financial concepts:
 - [
 Derivatives Analytics - Introduction to Object Oriented Programming](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Introduction_to_OOP.ipynb)
 - [
