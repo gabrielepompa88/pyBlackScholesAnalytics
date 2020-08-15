@@ -29,7 +29,9 @@ as `OptionPlotter` and `PortfolioPlotter` derived classes
 
 # Resources 
 
-[**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) comes with several [examples](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/pyblackscholesanalytics) (see [examples](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/examples) folder) to explore the features of the package. As far as the educational purpose is concerned, I find the current package important as much as the way in which its present version can be progressively reached. For this reason, the package is complemented by a series of 4 Jupyter notebooks presenting pyBlackScholesAnalytics package step-by step in a constructive way building on the ideas of the Object-Oriented paradygm as improvements over sequential implementations of the same financial concepts:
+[**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) features several [examples](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/examples) folder) that can be used as entry-point to explore the features of the package. 
+
+As far as the educational purpose is concerned, I find the [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package itself important as much as the way in which its final version can be progrissevely built. For this reason, the package is complemented by a series of 4 Jupyter notebooks presenting the package step-by step in a constructive way building on the ideas of the Object-Oriented paradygm as improvements over sequential implementations of the same financial concepts:
 - [
 Derivatives Analytics - Introduction to Object Oriented Programming](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Introduction_to_OOP.ipynb)
 - [
@@ -37,12 +39,13 @@ Derivatives Analytics - Inheritance and Polymorphism](https://github.com/gabriel
 - [Derivatives Analytics - Objects Composition](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Objects_Composition.ipynb)
 - [Derivatives Analytics - Options Greeks](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Options_Greeks.ipynb)
 
-Finally, YouTube video-lectures are provided for each notebook: 
+Finally, YouTube video-lectures are provided for each Jupyter Notebook to better guide the reader through the material: 
 
 - []()
 
 # Contacts
 
-This is the version (0.0.1) of the package, so if you have comments or suggestions you can reach Gabriele Pompa (_gabriele.pompa@gmail.com_). If you wish to contribute, please contact me through [GitHub/gabrielepompa88](https://github.com/gabrielepompa88). If you are interested but feel a bit new to Python, I can recommend the open ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) as a reasonable starting point. 
+This is the version (0.0.1) of the package, so if you have comments or suggestions you can reach Gabriele Pompa (_gabriele.pompa@gmail.com_). If you wish to contribute, please contact me through [GitHub/gabrielepompa88](https://github.com/gabrielepompa88). If you are interested but feel a bit new to Python, I can recommend the open ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) class as a reasonable starting point. 
 
-Thank you in advance for your attention.
+Thank you in advance for your attention and comments.
+Gabriele
