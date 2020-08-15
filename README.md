@@ -12,8 +12,7 @@
 to evaluate price, P&L and greeks of European options (both plain-vanilla and simple equity exotics 
 such as cash-or-nothing Digital options), as well as simple option strategies built on them.
 
-The package has been developed as a side project of the ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) class 
-I held at the University of Siena for the Master degree in Finance in 2020.
+The package has been developed as a spin-off development of the ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) class held at the University of Siena for the Master degree in Finance in 2020.
 
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) places itself in the middle between the coding style and level of a master student and that required for a junior quant at an investment bank. The aim is to address the gap between the two providing a playground 
 for students to master financial concepts related to options and option strategies and implementing a dedicated comprehensive
