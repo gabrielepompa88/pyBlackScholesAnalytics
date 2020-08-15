@@ -20,7 +20,7 @@ object-oriented architecture.
 
 # Contents:
 
-The current version of the package features the following modules:
+The current version (0.0.1) of the package features the following modules:
 
 - `options`: definitions for `EuropeanOption` abstract base-class as well 
 as `PlainVanillaOption` and `DigitalOption` derived classes
@@ -49,6 +49,7 @@ as `OptionPlotter` and `PortfolioPlotter` derived classes
 
 # Contacts
 
-This is still an alpha version, so if you have comments or suggestions you can reach Gabriele Pompa (_gabriele.pompa@gmail.com_). If you wish to contribute, please contact me through [GitHub/gabrielepompa88](https://github.com/gabrielepompa88). If you are interested but feel a bit new to Python, I can recommend the open ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) as a reasonable starting point. 
+This is still the first version of this package, so if you find errors, have comments or suggestions you can reach Gabriele Pompa (_gabriele.pompa@gmail.com_). If you wish to contribute, please contact me through [GitHub/gabrielepompa88](https://github.com/gabrielepompa88). If you are interested but feel a bit new to Python, I can recommend the open ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) as a reasonable starting point. 
 
-Thank you in advance for your attention.
+Thank you in advance for your attention,
+Gabriele
