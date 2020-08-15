@@ -1,4 +1,4 @@
-<img src="../images/pyBlackScholesAnalytics_logo.png" width="705">
+<img src="images/pyBlackScholesAnalytics_logo.png" width="705">
 
 # pyBlackScholesAnalytics
 
