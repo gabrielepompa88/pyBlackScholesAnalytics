@@ -1,4 +1,4 @@
-![](images/pyBlackScholesAnalytics_logo.png)
+<img src="../images/pyBlackScholesAnalytics_logo.png" width="705">
 
 # pyBlackScholesAnalytics
 
