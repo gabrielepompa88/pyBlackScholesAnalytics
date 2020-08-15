@@ -7,7 +7,7 @@
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package is a Python package designed to implement the well known Black-Scholes model 
 to evaluate price, P&L and greeks of European Options (both Plain-Vanilla and simple Equity Exotics such as Cash-or-Nothing Digital Options), as well as simple Option Strategies built on them (like Bull and Calendar Spreads).
 
-The goal of the [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) project is to reduce the gap between the coding level of a Master student and the level required for a junior Quant/Strat at an Investment Bank. We tried to achieve this goal designing a simple architecture as a playground to master financial concepts related to Options and Option Strategies using the Black-Scholes model as a _lingua franca_ along with getting used to professional coding practices using the Object-Oriented paradygm.
+The goal of the [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) project is to reduce the gap between the coding level of a Master student and the level required for a junior Quant/Strat at an Investment Bank. We tried to achieve this goal designing a simple architecture as a playground to master financial concepts related to Options and Option Strategies using the Black-Scholes model as a _lingua franca_ together with getting the audience used to professional coding practices using the Object-Oriented paradygm.
 
 The package has been developed as a side project of the ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) class held at the University of Siena for the Master degree in Finance during 2020.
 
