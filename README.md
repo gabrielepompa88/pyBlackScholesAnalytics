@@ -51,5 +51,4 @@ as `OptionPlotter` and `PortfolioPlotter` derived classes
 
 This is still the first version of this package, so if you find errors, have comments or suggestions you can reach Gabriele Pompa (_gabriele.pompa@gmail.com_). If you wish to contribute, please contact me through [GitHub/gabrielepompa88](https://github.com/gabrielepompa88). If you are interested but feel a bit new to Python, I can recommend the open ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) as a reasonable starting point. 
 
-Thank you in advance for your attention,
-Gabriele
+Thank you in advance for your attention.
