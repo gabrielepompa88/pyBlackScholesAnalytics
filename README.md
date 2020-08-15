@@ -1,4 +1,4 @@
-![](Personal_Notes/pyBlackScholesAnalytics.png)
+ | ![](Personal_Notes/pyBlackScholesAnalytics.png) <a name="add_bookmark"></a>| 
 
 # pyBlackScholesAnalytics
 
