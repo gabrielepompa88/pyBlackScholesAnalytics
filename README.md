@@ -1,7 +1,5 @@
-<img src="images/pyBlackScholesAnalytics_logo.png" width="400" title="hover text" stlye="max-width:100%;">
-
 <p align="center">
-  <img width="460" height="300" src="images/pyBlackScholesAnalytics_logo.png">
+  <img src="images/pyBlackScholesAnalytics_logo.png" width="200" title="hover text" stlye="max-width:100%;">
 </p>
 
 # pyBlackScholesAnalytics
