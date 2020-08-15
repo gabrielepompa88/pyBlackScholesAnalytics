@@ -1,5 +1,9 @@
 <img src="images/pyBlackScholesAnalytics_logo.png" width="400" title="hover text" stlye="max-width:100%;">
 
+<p align="center">
+  <img width="460" height="300" src="images/pyBlackScholesAnalytics_logo.png">
+</p>
+
 # pyBlackScholesAnalytics
 
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) is a Python package for implementing analytics for options and option strategies under the Black-Scholes Model for educational purposes.
