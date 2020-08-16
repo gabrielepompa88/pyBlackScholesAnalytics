@@ -76,9 +76,6 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
 
 <p align="center">
   <img src="images/fig_plain_vanilla.png" width="500" title="hover text" stlye="max-width:10%;">
-</p>
-
-<p align="center">
   <img src="images/fig_digital.png" width="500" title="hover text" stlye="max-width:10%;">
 </p>
 
