@@ -72,7 +72,7 @@ class Portfolio:
     Instantiation and Usage examples: 
     --------   
         
-        - example_portfolio.py
+        - portfolio.py
         - example_portfolio_single_strike.py
         - example_portfolio_multi_strike.py
         - example_portfolio_bull_spread.py

@@ -1,7 +1,7 @@
 """
 Created by: Gabriele Pompa (gabriele.pompa@gmail.com)
 
-File: example_portfolio.py
+File: portfolio.py
 
 Created on Tue Jul 14 2020 - Version: 1.0
 
