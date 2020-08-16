@@ -73,7 +73,7 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 Below some pictures just to whet your appetite...
 
 <p align="center">
-  <img src="images/fig_plain_vanilla.png" width="50">
+  <img src="images/fig_plain_vanilla.png" width="250">
 </p>
 
  | ![](images/fig_plain_vanilla.png) <a name="add_bookmark"></a>| 
