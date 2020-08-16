@@ -1,18 +1,16 @@
 """
 Created by: Gabriele Pompa (gabriele.pompa@gmail.com)
 
-File: example_portfolio_single_strike.py
+File: portfolio_single_strike.py
 
 Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
     
-This script shows basic usage of Portfolio class to construct a derivative 
-portfolio of plain-vanilla and digital option contracts. Basic instantiation 
-examples are provided with combinations of the underlying level (S), 
-strike-price (K), time parameter (t/tau) as well as underlying volatility 
-(sigma) and short-rate (r) parameters. Price, P&L, first-order greeks are 
-computed for single-strike portfolio.
+This script shows basic usage of Portfolio class to construct a derivative portfolio of plain-vanilla and digital option
+contracts. Basic instantiation examples are provided with combinations of the underlying level (S), strike-price (K),
+time parameter (t/tau) as well as underlying volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order
+greeks are computed for single-strike portfolio.
 """
 
 import numpy as np

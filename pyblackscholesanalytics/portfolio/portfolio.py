@@ -73,7 +73,7 @@ class Portfolio:
     --------   
         
         - portfolio.py
-        - example_portfolio_single_strike.py
+        - portfolio_single_strike.py
         - example_portfolio_multi_strike.py
         - example_portfolio_bull_spread.py
         - example_portfolio_bull_spread_other_params.py
