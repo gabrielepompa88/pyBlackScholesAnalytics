@@ -47,7 +47,7 @@ class NumericGreeks:
     Instantiation and Usage examples: 
     --------   
         
-        - example_options_numeric_greeks.py
+        - options_numeric_greeks.py
         - example_options_numeric_analytic_greeks_comparison.py
     """
 
