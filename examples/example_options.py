@@ -10,7 +10,7 @@ Description:
 This script shows basic usage of PlainVanillaOption and DigitalOption classes.
 Basic instantiation examples are provided with combinations of the underlying
 level (S) and time parameter (t/tau). Price, P&L, first-order greeks as well as 
-Black-Scholes implied-volatilies are computed for plain-vanilla and digital 
+Black-Scholes implied-volatility are computed for plain-vanilla and digital
 option contracts.
 """
 
@@ -192,12 +192,10 @@ def main():
         # Implied volatility calculation is not implemented for x-axis (columns) 
         # spanned by parameters different from S or K (like sigma or r)
         if not_sigma_axis and not_r_axis:
-            print("\nExpected Implied Volatility: \n{}\n" \
-                  .format(option.get_sigma()))
-            print("\nImplied Volatility - Newton method:\n{}\n" \
-                  .format(option.implied_volatility(**param_dict)))
+            print("\nExpected Implied Volatility: \n{}\n".format(option.get_sigma()))
+            print("\nImplied Volatility - Newton method:\n{}\n".format(option.implied_volatility(**param_dict)))
             param_dict["minimization_method"] = "Least-Squares"
-            print("\nImplied Volatility - Least-Squares constrained method:\n{}\n" \
+            print("\nImplied Volatility - Least-Squares constrained method:\n{}\n"
                   .format(option.implied_volatility(**param_dict)))
 
 

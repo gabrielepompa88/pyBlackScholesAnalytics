@@ -5,15 +5,12 @@ Date: 21-May-2020
 File name: numerical_routines.py
 """
 
-# ----------------------- standard imports ---------------------------------- #
-# for NumPy arrays
-import numpy as np
-
 # ----------------------- sub-modules imports ------------------------------- #
 
-from pyblackscholesanalytics.utils.utils import *
+from .utils import *
 
-#-----------------------------------------------------------------------------#
+
+# -----------------------------------------------------------------------------#
 
 class NumericGreeks:
     """
@@ -23,7 +20,7 @@ class NumericGreeks:
     Attributes:
     -----------
         FinancialObject (EuropeanOption sub-class or Portfolio):      Instance of an EuropeanOption sub-class 
-                                                                      (PlainVanillaOption or DigitalOption) or a Portfolio 
+                                                                      (PlainVanillaOption or DigitalOption) or Portfolio
                                                                       class.
        epsilon (float):                                               tolerance for finite-differences                                                                      
 
@@ -53,19 +50,18 @@ class NumericGreeks:
         - example_options_numeric_greeks.py
         - example_options_numeric_analytic_greeks_comparison.py
     """
-    
+
     def __init__(self, FinancialObject, epsilon=1e-4):
-        
         self.opt = FinancialObject
-        self.f = FinancialObject.price 
+        self.f = FinancialObject.price
         self.__eps = epsilon
-        
+
     def get_epsilon(self):
         return self.__eps
-    
+
     def set_epsilon(self, eps=1e-4):
-        self.__eps=eps
-                
+        self.__eps = eps
+
     def delta(self, **kwargs):
         """
         Numeric derivative df/dS.
@@ -73,13 +69,14 @@ class NumericGreeks:
         Can be called as self.opt.price() method.
         """
         # process parameter
-        S0 = kwargs["S"] if "S" in kwargs else self.opt.get_S()  
+        S0 = kwargs["S"] if "S" in kwargs else self.opt.get_S()
         S0 = homogenize(S0)
-        
+
         # delete "S" from kwargs if it exists
         kwargs.pop("S", None)
-        
-        return (self.f(S=S0+self.get_epsilon(), **kwargs) - self.f(S=S0-self.get_epsilon(), **kwargs))/(2*self.get_epsilon())
+
+        return (self.f(S=S0 + self.get_epsilon(), **kwargs) - self.f(S=S0 - self.get_epsilon(), **kwargs)) / (
+                    2 * self.get_epsilon())
 
     def gamma(self, **kwargs):
         """
@@ -88,14 +85,15 @@ class NumericGreeks:
         Can be called as self.opt.price() method.
         """
         # process parameter
-        S0 = kwargs["S"] if "S" in kwargs else self.opt.get_S()  
+        S0 = kwargs["S"] if "S" in kwargs else self.opt.get_S()
         S0 = homogenize(S0)
-        
+
         # delete "S" from kwargs if it exists
         kwargs.pop("S", None)
 
-        return (self.f(S=S0-self.get_epsilon(), **kwargs) - 2.0*self.f(S=S0, **kwargs) + self.f(S=S0+self.get_epsilon(), **kwargs))/(self.get_epsilon()*self.get_epsilon())
-    
+        return (self.f(S=S0 - self.get_epsilon(), **kwargs) - 2.0 * self.f(S=S0, **kwargs) + self.f(
+            S=S0 + self.get_epsilon(), **kwargs)) / (self.get_epsilon() * self.get_epsilon())
+
     def vega(self, **kwargs):
         """
         Numeric derivative df/dsigma. By default, it is scaled to consider 
@@ -104,16 +102,18 @@ class NumericGreeks:
         Can be called as self.opt.price() method.
         """
         # process parameter
-        sigma0 = kwargs["sigma"] if "sigma" in kwargs else self.opt.get_sigma()  
+        sigma0 = kwargs["sigma"] if "sigma" in kwargs else self.opt.get_sigma()
         sigma0 = homogenize(sigma0)
-        
+
         # delete "sigma" from kwargs if it exists
         kwargs.pop("sigma", None)
 
         # rescaling factor
         rescaling_factor = kwargs["factor"] if "factor" in kwargs else 0.01
 
-        return (self.f(sigma=sigma0+self.get_epsilon(), **kwargs) - self.f(sigma=sigma0-self.get_epsilon(), **kwargs))/(2*self.get_epsilon()) * rescaling_factor
+        return (self.f(sigma=sigma0 + self.get_epsilon(), **kwargs) - self.f(sigma=sigma0 - self.get_epsilon(),
+                                                                             **kwargs)) / (
+                           2 * self.get_epsilon()) * rescaling_factor
 
     def theta(self, **kwargs):
         """
@@ -123,16 +123,17 @@ class NumericGreeks:
         Can be called as self.opt.price() method.
         """
         # process parameter
-        tau0 = kwargs["tau"] if "tau" in kwargs else self.opt.get_tau()  
+        tau0 = kwargs["tau"] if "tau" in kwargs else self.opt.get_tau()
         tau0 = homogenize(tau0, reverse_order=True)
-        
+
         # delete "tau" from kwargs if it exists
         kwargs.pop("tau", None)
 
         # rescaling factor
-        rescaling_factor = kwargs["factor"] if "factor" in kwargs else 1.0/365.0
-        
-        return -((self.f(tau=tau0+self.get_epsilon(), **kwargs) - self.f(tau=tau0-self.get_epsilon(), **kwargs))/(2*self.get_epsilon())) * rescaling_factor
+        rescaling_factor = kwargs["factor"] if "factor" in kwargs else 1.0 / 365.0
+
+        return -((self.f(tau=tau0 + self.get_epsilon(), **kwargs) - self.f(tau=tau0 - self.get_epsilon(), **kwargs)) / (
+                    2 * self.get_epsilon())) * rescaling_factor
 
     def rho(self, **kwargs):
         """
@@ -142,13 +143,14 @@ class NumericGreeks:
         Can be called as self.opt.price() method.
         """
         # process parameter
-        r0 = kwargs["r"] if "r" in kwargs else self.opt.get_r()  
+        r0 = kwargs["r"] if "r" in kwargs else self.opt.get_r()
         r0 = homogenize(r0)
-        
+
         # delete "r" from kwargs if it exists
         kwargs.pop("r", None)
 
         # rescaling factor
         rescaling_factor = kwargs["factor"] if "factor" in kwargs else 0.01
 
-        return ((self.f(r=r0+self.get_epsilon(), **kwargs) - self.f(r=r0-self.get_epsilon(), **kwargs))/(2*self.get_epsilon())) * rescaling_factor
+        return ((self.f(r=r0 + self.get_epsilon(), **kwargs) - self.f(r=r0 - self.get_epsilon(), **kwargs)) / (
+                    2 * self.get_epsilon())) * rescaling_factor
