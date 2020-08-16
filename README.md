@@ -70,9 +70,11 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 | [calendar_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread.py) | This example shows usage of `Portfolio` class to create a Calendar-Spread option strategy. Basic instantiation examples are provided with combinations of the underlying level (S) and time parameter (t). Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surface-plots Vs time parameter. |
 | [calendar_spread_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread_other_params.py) | This example shows usage of `Portfolio` class to create a Calendar-Spread option strategy. Instantiation examples are provided with combinations of the underlying level (S) and time parameter (t) as well as underlying volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surfaces-plots Vs time parameter. |
 
+## Whetting your appetite
+
 Below something you can do using [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package to whet your appetite:
 
-- Take a look at [options_plot.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot.py) example for Plain-Vanilla and Cash-Or-Nothing Digital Options price, P&L and Greeks examples
+- See [options_plot.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot.py) example for Plain-Vanilla and Cash-Or-Nothing Digital Options price, P&L and Greeks examples
 
 <p align="center">
   <img src="images/fig_plain_vanilla.png" width="400" title="hover text" stlye="max-width:10%;">
@@ -84,7 +86,7 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
   <img src="images/fig_digital_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
 </p>
 
-- Take a look at [options_plot_surface.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_surface.py) example for Option surface plots examples 
+- See [options_plot_surface.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_surface.py) example for Option surface plots examples 
 
 <p align="center">
   <img src="images/fig_plain_vanilla_price_surf.png" width="400" title="hover text" stlye="max-width:10%;">
