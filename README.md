@@ -98,7 +98,7 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
   <img src="images/fig_digital_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
 </p>
 
-- See [options_plot_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_other_params.py) example for other parametric dependency plot examples 
+- See [options_plot_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_other_params.py) example for more pricing parameters dependency examples  
 
 <p align="center">
   <img src="images/fig_plain_vanilla_price_Vs_K.png" width="400" title="hover text" stlye="max-width:10%;">
