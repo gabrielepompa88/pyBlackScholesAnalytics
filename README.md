@@ -128,6 +128,18 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
   <img src="images/fig_bull_spread_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
 </p>
 
+- See [calendar_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread.py) example for Calendar-Spread Strategy price, P&L and Greeks examples
+
+<p align="center">
+  <img src="images/fig_calendar_spread_PnL.png" width="400" title="hover text" stlye="max-width:10%;">
+  <img src="images/fig_calendar_spread_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
+</p>
+
+<p align="center">
+  <img src="images/fig_calendar_spread_PnL_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+  <img src="images/fig_calendar_spread_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+</p>
+
 
 
 
