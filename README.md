@@ -113,9 +113,20 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
 - See [options_plot_IV.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_IV.py) example for Black-Scholes implied volatility examples  
 
 <p align="center">
-  <img src="images/fig_iv_surf.png" width="500" title="hover text" stlye="max-width:10%;">
+  <img src="images/fig_iv_surf.png" width="600" title="hover text" stlye="max-width:10%;">
 </p>
 
+- See [bull_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/bull_spread.py) example for Bull-Spread Strategy price, P&L and Greeks examples
+
+<p align="center">
+  <img src="images/fig_bull_spread_PnL.png" width="400" title="hover text" stlye="max-width:10%;">
+  <img src="images/fig_bull_spread_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
+</p>
+
+<p align="center">
+  <img src="images/fig_bull_spread_PnL_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+  <img src="images/fig_bull_spread_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+</p>
 
 
 
