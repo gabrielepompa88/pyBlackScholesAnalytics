@@ -72,7 +72,11 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 
 Below some pictures just to whet your appetite...
 
- | ![](images/fig_plain_vanilla.png = 50x) <a name="add_bookmark"></a>| 
+<p align="center">
+  <img src="images/fig_plain_vanilla.png" width="50">
+</p>
+
+ | ![](images/fig_plain_vanilla.png) <a name="add_bookmark"></a>| 
  |:--:| 
  | Ciao |
 
