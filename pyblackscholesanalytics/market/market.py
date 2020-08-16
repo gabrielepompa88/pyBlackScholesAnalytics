@@ -12,9 +12,10 @@ This file contains the definition of MarketEnvironment class.
 
 # ----------------------- sub-modules imports ------------------------------- #
 
-from pyblackscholesanalytics.utils.utils import date_string_to_datetime_obj
+from ..utils.utils import date_string_to_datetime_obj
 
-#-----------------------------------------------------------------------------#
+
+# -----------------------------------------------------------------------------#
 
 class MarketEnvironment:
     """
@@ -44,19 +45,18 @@ class MarketEnvironment:
 
         - general: MarketEnvironment(t="DD-MM-YYYY" String, r=Float, S_t=Float, sigma=Float)
     """
-    
+
     def __init__(self, t="19-04-2020", r=0.05, S_t=90.0, sigma=0.2):
-        
         print("Initializing the MarketEnvironment!")
-        
-        self.__t     = date_string_to_datetime_obj(t)
-        self.__r     = r
-        self.__S     = S_t
+
+        self.__t = date_string_to_datetime_obj(t)
+        self.__r = r
+        self.__S = S_t
         self.__sigma = sigma
-        
+
     def __repr__(self):
-        return r"MarketEnvironment(t={}, r={:.1f}%, S_t={:.1f}, sigma={:.1f}%)".\
-               format(self.get_t().strftime("%d-%m-%Y"), self.get_r()*100, self.get_S(), self.get_sigma()*100)
+        return r"MarketEnvironment(t={}, r={:.1f}%, S_t={:.1f}, sigma={:.1f}%)". \
+            format(self.get_t().strftime("%d-%m-%Y"), self.get_r() * 100, self.get_S(), self.get_sigma() * 100)
 
     # getters
     def get_t(self):
@@ -67,10 +67,10 @@ class MarketEnvironment:
 
     def get_S(self):
         return self.__S
-    
+
     def get_sigma(self):
         return self.__sigma
-    
+
     # setters 
     def set_t(self, t):
         self.__t = date_string_to_datetime_obj(t)
@@ -80,6 +80,6 @@ class MarketEnvironment:
 
     def set_S(self, S):
         self.__S = S
-        
+
     def set_sigma(self, sigma):
         self.__sigma = sigma
