@@ -444,7 +444,7 @@ class OptionPlotter(Plotter):
     Instantiation and Usage examples: 
     --------   
         
-        - example_options_plot.py
+        - options_plot.py
         - example_options_plot_other_params.py
         - example_options_plot_IV.py
         - example_options_plot_surface.py
@@ -668,7 +668,7 @@ class OptionPlotter(Plotter):
         Plot FinancialInstrument values against underlying value(s), possibly at multiple dates.
 
         Usage examples: 
-            - example_options_plot.py
+            - options_plot.py
             - example_options_plot_other_params.py
         """
 
@@ -749,7 +749,7 @@ class OptionPlotter(Plotter):
         Plot FinancialInstrument values against underlying value(s) at fixed date. 
 
         Usage examples: 
-            - example_options_plot.py
+            - options_plot.py
             - example_options_plot_other_params.py
         """
 
