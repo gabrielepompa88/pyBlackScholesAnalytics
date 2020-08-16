@@ -70,7 +70,7 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 | [calendar_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread.py) | This example shows usage of `Portfolio` class to create a Calendar-Spread option strategy. Basic instantiation examples are provided with combinations of the underlying level (S) and time parameter (t). Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surface-plots Vs time parameter. |
 | [calendar_spread_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread_other_params.py) | This example shows usage of `Portfolio` class to create a Calendar-Spread option strategy. Instantiation examples are provided with combinations of the underlying level (S) and time parameter (t) as well as underlying volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surfaces-plots Vs time parameter. |
 
-## Whetting your appetite
+## Showcase
 
 Below something you can do using [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package to whet your appetite:
 
