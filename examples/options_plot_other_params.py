@@ -7,9 +7,8 @@ Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
 
-This script shows integration of PlainVanillaOption and DigitalOption classes
-with Plotter class. Price, P&L and first-order greeks plots are shown for 
-plain-vanilla and digital option contracts against underlying level (S), 
+This script shows integration of PlainVanillaOption and DigitalOption classes with Plotter class. Price, P&L and
+first-order greeks plots are shown for plain-vanilla and digital option contracts against underlying level (S),
 strike-price (K), volatility (sigma) and short-rate (r).
 """
 

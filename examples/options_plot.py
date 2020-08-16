@@ -7,9 +7,8 @@ Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
     
-This script shows basic integration of PlainVanillaOption and DigitalOption classes
-with Plotter class. Price, P&L and first-order greeks plots are shown for 
-plain-vanilla and digital option contracts.
+This script shows basic integration of PlainVanillaOption and DigitalOption classes with Plotter class. Price, P&L and
+first-order greeks plots are shown for plain-vanilla and digital option contracts.
 """
 
 import pandas as pd

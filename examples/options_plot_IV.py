@@ -7,10 +7,9 @@ Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
     
-This script shows integration of PlainVanillaOption and DigitalOption classes
-with Plotter class (in particular .plot_IV() method). Focus is on the 
-visualization of Black-Scholes implied-volatility for plain-vanilla and
-digital option contracts both as a line plot and surface-plot.
+This script shows integration of PlainVanillaOption and DigitalOption classes with Plotter class (in particular
+.plot_IV() method). Focus is on the visualization of Black-Scholes implied-volatility for plain-vanilla and digital
+option contracts both as a line plot and surface-plot.
 """
 
 import numpy as np
