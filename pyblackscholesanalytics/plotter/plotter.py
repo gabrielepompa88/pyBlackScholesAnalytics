@@ -13,19 +13,15 @@ as OptionPlotter and PortfolioPlotter derived classes.
 
 # ----------------------- standard imports ---------------------------------- #
 # for NumPy arrays
-# noinspection UnusedImport
 import numpy as np
 
 # for Pandas Series and DataFrame
-# noinspection UnusedImport
 import pandas as pd
 
 # for Matplotlib plotting
-# noinspection UnusedImport
 import matplotlib.pyplot as plt
 
 # for 3D plot
-# noinspection UnusedImport
 from mpl_toolkits.mplot3d import Axes3D
 
 # ----------------------- sub-modules imports ------------------------------- #

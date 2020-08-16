@@ -12,8 +12,7 @@ This file contains the definition of Portfolio class.
 
 # ----------------------- standard imports ---------------------------------- #
 # for NumPy arrays
-# noinspection UnusedImport
-# import numpy as np
+import numpy as np
 
 # ----------------------- sub-modules imports ------------------------------- #
 
