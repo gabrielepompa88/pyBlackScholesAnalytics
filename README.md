@@ -53,6 +53,34 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 
 |   | description  |
 |:-------------------:|:--------------------------|
+| [options.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options.py) | This script shows basic usage of `PlainVanillaOption` and `DigitalOption` classes. Basic instantiation examples are provided with combinations of the underlying level (S) and time parameter (t/tau). Price, P&L, first-order greeks as well as Black-Scholes implied-volatility are computed for Plain-Vanilla and Digital Option contracts. |
+| [options_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_other_params.py) | This script shows usage of `PlainVanillaOption` and `DigitalOption` classes. Instantiation examples are provided involving combinations of the underlying level (S), strike-price (K), time parameter (t/tau), as well as underlying volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order greeks as well as Black-Scholes implied-volatility are computed for Plain-Vanilla and Digital Option contracts. |
+| [options_IV.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_IV.py) | This script shows usage of `PlainVanillaOption` and `DigitalOption` classes to compute of Black-Scholes implied volatility surfaces for Plain-Vanilla and Digital Option contracts. |
+| [options_plot.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot.py) | This script shows basic integration of `PlainVanillaOption` and `DigitalOption` classes with `Plotter` class. Price, P&L and first-order greeks plots are shown for Plain-Vanilla and Digital Option contracts. |
+| [options_plot_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_other_params.py) | This script shows integration of `PlainVanillaOption` and `DigitalOption` classes with `Plotter` class. Price, P&L and first-order greeks plots are shown for Plain-Vanilla and Digital Option contracts against underlying level (S), strike-price (K), volatility (sigma) and short-rate (r). |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
+| Ciao.py | ciao ciao ciao |
 | Ciao.py | ciao ciao ciao |
 
 # Contacts
