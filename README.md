@@ -74,6 +74,7 @@ Below some pictures just to whet your appetite...
 
 <p align="center">
   <img src="images/fig_plain_vanilla.png" width="500">
+  Ciao Ciao ciao
 </p>
 
  | ![](images/fig_plain_vanilla.png) <a name="add_bookmark"></a>| 
