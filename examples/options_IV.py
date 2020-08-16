@@ -1,7 +1,7 @@
 """
 Created by: Gabriele Pompa (gabriele.pompa@gmail.com)
 
-File: example_options_IV.py
+File: options_IV.py
 
 Created on Tue Jul 14 2020 - Version: 1.0
 
@@ -109,7 +109,7 @@ def main():
     print("\nImplied Volatility - Newton method - Metrics (NaN excluded): RMSE={:.1E}, RMSRE={:.1E}:\n"
           .format(RMSE_newton, RMSRE_newton), newton_IV)
 
-    # Least=Squares method
+    # Least-Squares method
     param_dict["minimization_method"] = "Least-Squares"
     ls_IV = option.implied_volatility(**param_dict)
     RMSE_ls = np.sqrt(np.nanmean((ls_IV - expected_IV) ** 2))
@@ -141,7 +141,7 @@ def main():
     print("\nImplied Volatility - Newton method - Metrics (NaN excluded): RMSE={:.1E}, RMSRE={:.1E}:\n"
           .format(RMSE_newton, RMSRE_newton), newton_IV)
 
-    # Least=Squares method
+    # Least-Squares method
     param_dict["minimization_method"] = "Least-Squares"
     ls_IV = option.implied_volatility(**param_dict)
     RMSE_ls = np.sqrt(np.nanmean((ls_IV - expected_IV) ** 2))

@@ -109,7 +109,7 @@ class EuropeanOption:
         
         - example_options.py
         - example_options_other_params.py
-        - example_options_IV.py
+        - options_IV.py
         - example_options_numeric_analytic_greeks_comparison.py
 
     """
@@ -775,7 +775,7 @@ class EuropeanOption:
         Usage example: 
             - example_options.py
             - example_options_other_params.py
-            - example_options_IV.py
+            - options_IV.py
             
         Implements two minimization routines:
             
@@ -1104,7 +1104,7 @@ class PlainVanillaOption(EuropeanOption):
         
         - example_options.py
         - example_options_other_params.py
-        - example_options_IV.py
+        - options_IV.py
         - example_options_numeric_analytic_greeks_comparison.py
 
     Instantiation
@@ -1405,7 +1405,7 @@ class DigitalOption(EuropeanOption):
         
         - example_options.py
         - example_options_other_params.py
-        - example_options_IV.py
+        - options_IV.py
         - example_options_numeric_analytic_greeks_comparison.py
 
     Instantiation
