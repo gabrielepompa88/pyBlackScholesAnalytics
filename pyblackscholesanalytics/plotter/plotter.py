@@ -445,7 +445,7 @@ class OptionPlotter(Plotter):
     --------   
         
         - options_plot.py
-        - example_options_plot_other_params.py
+        - options_plot_other_params.py
         - example_options_plot_IV.py
         - example_options_plot_surface.py
     """
@@ -669,7 +669,7 @@ class OptionPlotter(Plotter):
 
         Usage examples: 
             - options_plot.py
-            - example_options_plot_other_params.py
+            - options_plot_other_params.py
         """
 
         # identifier of the x-axis
@@ -750,7 +750,7 @@ class OptionPlotter(Plotter):
 
         Usage examples: 
             - options_plot.py
-            - example_options_plot_other_params.py
+            - options_plot_other_params.py
         """
 
         # identifier of the x-axis

@@ -1,7 +1,7 @@
 """
 Created by: Gabriele Pompa (gabriele.pompa@gmail.com)
 
-File: example_options_plot_other_params.py
+File: options_plot_other_params.py
 
 Created on Tue Jul 14 2020 - Version: 1.0
 
