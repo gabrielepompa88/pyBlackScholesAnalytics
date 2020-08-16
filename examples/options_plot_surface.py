@@ -97,7 +97,7 @@ def main():
     print(market_env)
 
     # define option style and type
-    opt_style = "digital" # "plain_vanilla"  # "digital"
+    opt_style = "plain_vanilla"  # "digital"
     opt_type = "call"  # "put"
     option = option_factory(market_env, opt_style, opt_type)
     print(option)
