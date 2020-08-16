@@ -1,18 +1,16 @@
 """
 Created by: Gabriele Pompa (gabriele.pompa@gmail.com)
 
-File: example_bull_spread_other_params.py
+File: bull_spread_other_params.py
 
 Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
     
-This script shows usage of Portfolio class to create a Bull-Spread option 
-strategy. Instantiation examples are provided with combinations of the underlying
-level (S) and time parameter (t/tau) as well as underlying volatility (sigma) 
-and short-rate (r) parameters. Price, P&L, first-order greeks are computed and 
-plotted using the Plotter class as line plots and surfaces-plots Vs time 
-parameter.
+This script shows usage of Portfolio class to create a Bull-Spread option strategy. Instantiation examples are provided
+with combinations of the underlying level (S) and time parameter (t/tau) as well as underlying volatility (sigma) and
+short-rate (r) parameters. Price, P&L, first-order greeks are computed and plotted using the Plotter class as line plots
+and surfaces-plots Vs time parameter.
 """
 
 import pandas as pd
