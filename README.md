@@ -51,7 +51,6 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 
 ## Examples
 
-|   | description  |
 |:-------------------:|:--------------------------|
 | [options.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options.py) | This example shows basic usage of `PlainVanillaOption` and `DigitalOption` classes. Basic instantiation examples are provided with combinations of the underlying level (S) and time parameter (t/tau). Price, P&L, first-order greeks as well as Black-Scholes implied-volatility are computed for Plain-Vanilla and Digital Option contracts. |
 | [options_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_other_params.py) | This example shows usage of `PlainVanillaOption` and `DigitalOption` classes. Instantiation examples are provided involving combinations of the underlying level (S), strike-price (K), time parameter (t/tau), as well as underlying volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order greeks as well as Black-Scholes implied-volatility are computed for Plain-Vanilla and Digital Option contracts. |
