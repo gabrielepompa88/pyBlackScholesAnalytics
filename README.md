@@ -20,7 +20,7 @@ object-oriented architecture.
 
 # Contents:
 
-The current version (0.0.1) of the package features the following sub-packages:
+The current version (0.0.1) of the package features the following components:
 
 - `options`: definitions for `EuropeanOption` abstract base-class as well 
 as `PlainVanillaOption` and `DigitalOption` derived classes
