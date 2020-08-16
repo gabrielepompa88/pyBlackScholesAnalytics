@@ -1,17 +1,15 @@
 """
 Created by: Gabriele Pompa (gabriele.pompa@gmail.com)
 
-File: example_options_plot_surface.py
+File: options_plot_surface.py
 
 Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
     
-This script shows integration of PlainVanillaOption and DigitalOption classes
-with Plotter class. Price, P&L and first-order greeks plots are shown for 
-plain-vanilla and digital option contracts as underlying level (S), 
-strike-price (K), volatility (sigma) and short-rate (r) surface-plots Vs time 
-parameter.
+This script shows integration of PlainVanillaOption and DigitalOption classes with Plotter class. Price, P&L and
+first-order greeks plots are shown for plain-vanilla and digital option contracts as underlying level (S), strike-price
+(K), volatility (sigma) and short-rate (r) surface-plots Vs time parameter.
 """
 
 import pandas as pd

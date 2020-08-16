@@ -443,7 +443,7 @@ class OptionPlotter(Plotter):
         - options_plot.py
         - options_plot_other_params.py
         - options_plot_IV.py
-        - example_options_plot_surface.py
+        - options_plot_surface.py
     """
 
     def __init__(self, *args, **kwargs):
@@ -536,7 +536,7 @@ class OptionPlotter(Plotter):
         Plot FinancialInstrument values as a surface of underlying value(s) and multiple dates.
 
         Usage examples: 
-            - example_options_plot_surface.py
+            - options_plot_surface.py
         """
 
         # identifier of the x-axis
