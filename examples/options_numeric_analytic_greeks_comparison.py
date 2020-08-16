@@ -1,15 +1,14 @@
 """
 Created by: Gabriele Pompa (gabriele.pompa@gmail.com)
 
-File: example_options_numeric_analytic_greeks_comparison.py
+File: options_numeric_analytic_greeks_comparison.py
 
 Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
     
-This script provides a comparison of first-order greeks for plain-vanilla and 
-digital option contracts implemented either through finite-difference methods 
-in NumericGreeks class or using their analytic expression implemented in 
+This script provides a comparison of first-order greeks for plain-vanilla and digital option contracts implemented
+either through finite-difference methods in NumericGreeks class or using their analytic expression implemented in
 PlainVanillaOption and DigitalOption classes.
 """
 

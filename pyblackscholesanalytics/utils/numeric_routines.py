@@ -48,7 +48,7 @@ class NumericGreeks:
     --------   
         
         - options_numeric_greeks.py
-        - example_options_numeric_analytic_greeks_comparison.py
+        - options_numeric_analytic_greeks_comparison.py
     """
 
     def __init__(self, FinancialObject, epsilon=1e-4):
