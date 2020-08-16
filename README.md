@@ -91,6 +91,11 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
   <img src="images/fig_plain_vanilla_gamma_surf.png" width="500" title="hover text" stlye="max-width:10%;">
 </p>
 
+<p align="center">
+  <img src="images/fig_digital_price_surf.png" width="500" title="hover text" stlye="max-width:10%;">
+  <img src="images/fig_digital_gamma_surf.png" width="500" title="hover text" stlye="max-width:10%;">
+</p>
+
 
 # Contacts
 
