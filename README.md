@@ -6,7 +6,15 @@
 
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) is a Python package for implementing analytics for options and option strategies under the Black-Scholes Model for educational purposes.
 
-# Summary
+- [Summary](#Summary)
+- [Components](#Components)
+- [Resources](#Resources)
+  - [Tutorials](#Tutorials)
+  - [Examples](#Examples)
+  - [Gallery](#Gallery)
+- [Contacts](#Contacts)
+
+# Summary <a name="Summary"></a>
 
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package is a Python package designed to use the well known Black-Scholes model 
 to evaluate price, P&L and greeks of European options (both plain-vanilla and simple equity exotics 
@@ -18,7 +26,7 @@ The package has been developed as a spin-off project of the ["IT for Business an
 for students to master financial concepts related to options and option strategies and implementing a dedicated comprehensive
 object-oriented architecture.
 
-# Contents:
+# Components <a name="Components"></a>
 
 The current version (0.0.1) of the package features the following components:
 
@@ -34,13 +42,13 @@ as `OptionPlotter` and `PortfolioPlotter` derived classes
 
 - `numeric_routines`: definition of `NumericGreeks` class implementing option greeks through finite-difference methods
 
-# Resources 
+# Resources <a name="Resources"></a>
 
 As far as the educational purpose is concerned, I find the [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package itself helpful as much as the way in which its final version can be progressively built. In my experience, the constructive approach is ubiquitous in the real life of a Quant/Strat: a business need is first formulated by a trader or another stakeholder, then tackled by the Quant/Strat team with an _ad hoc_ analysis, then a tactic short-term implementation of the response is produced and, finally, a strategic and robust long-term solution is designed and implemented. For this reason, the package is complemented by a series of 4 Tutorials in the form of [Jupyter Notebooks](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/Notebook_Tutorials) and [Youtube Videos](https://www.youtube.com/channel/UC77o5i2ePrXjwlQQLQeYsBw/playlists). These tutorial aim to present the package step-by step in a constructive way building on the ideas of the Object-Oriented paradygm as improvements over sequential implementations of the same financial concepts. 
 
 Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/tree/master/examples) showcase the features of [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package and can be used as entry-point to begin the exploration of the package.
 
-## Tutorials
+## Tutorials <a name="Tutorials"></a>
 
 |  | Jupyter Notebook | Youtube Video Playlist |
 |:-------------------|:--------------------------:|:------------------:|
@@ -49,7 +57,7 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 | **Derivatives Analytics - Objects Composition**: in this tutorial we introduce _Composition_ which is an additional way to model relationships among objects, alternatively to Inheritance. We present this relationship introducing a common `MarketEnvironment` under which Option contracts are emitted, a `Portfolio` class is designed to aggregate Options and another `Plotter` class is designed to provide visualization routines. Finally, we examine several Option Strategies which uses the architecture implemented so far. | [:notebook:](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Objects_Composition.ipynb) | [:tv:]() |
 | **Derivatives Analytics - Options Greeks**: in this tutorial we introduce Option Greeks. That is, the derivatives of an option price with respect to its pricing parameters. We provide both a numeric computation using _finite-difference_ methods implemented in `NumericGreeks` class and their analytic expression using the Black-Scholes model. Finally, all features introduced in this and previous tutorial are collected in the `pyBlackScholesAnalytics` Python package which is hereby introduced. | [:notebook:](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Options_Greeks.ipynb) | [:tv:]() |
 
-## Examples
+## Examples <a name="Examples"></a>
 
 | <!-- -->  | <!-- --> |
 |:-------------------:|:--------------------------|
@@ -70,7 +78,7 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 | [calendar_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread.py) | This example shows usage of `Portfolio` class to create a Calendar-Spread option strategy. Basic instantiation examples are provided with combinations of the underlying level (S) and time parameter (t). Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surface-plots Vs time parameter. |
 | [calendar_spread_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread_other_params.py) | This example shows usage of `Portfolio` class to create a Calendar-Spread option strategy. Instantiation examples are provided with combinations of the underlying level (S) and time parameter (t) as well as underlying volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surfaces-plots Vs time parameter. |
 
-## Showcase
+## Gallery <a name="Gallery"></a>
 
 Below something you can do using [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package to whet your appetite:
 
@@ -138,7 +146,7 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
 
 
 
-# Contacts
+# Contacts <a name="Contacts"></a>
 
 This is still the first version of this package, so if you find errors, have comments or suggestions you can reach Gabriele Pompa (_gabriele.pompa@gmail.com_). If you wish to contribute, please contact me through [GitHub/gabrielepompa88](https://github.com/gabrielepompa88). If you are interested but feel a bit new to Python, I can recommend the open ["IT for Business and Finance"](https://github.com/gabrielepompa88/IT-For-Business-And-Finance-2019-20) as a reasonable starting point. 
 
