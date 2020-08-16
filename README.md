@@ -110,6 +110,13 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
   <img src="images/fig_digital_price_Vs_sigma.png" width="400" title="hover text" stlye="max-width:10%;">
 </p>
 
+- See [options_plot_IV.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_IV.py) example for Black-Scholes implied volatility examples  
+
+<p align="center">
+  <img src="images/fig_iv_surf.png" width="400" title="hover text" stlye="max-width:10%;">%;">
+</p>
+
+
 
 
 
