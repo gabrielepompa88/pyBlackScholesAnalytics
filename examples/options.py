@@ -7,11 +7,9 @@ Created on Tue Jul 14 2020 - Version: 1.0
 
 Description: 
     
-This script shows basic usage of PlainVanillaOption and DigitalOption classes.
-Basic instantiation examples are provided with combinations of the underlying
-level (S) and time parameter (t/tau). Price, P&L, first-order greeks as well as 
-Black-Scholes implied-volatility are computed for plain-vanilla and digital
-option contracts.
+This script shows basic usage of PlainVanillaOption and DigitalOption classes. Basic instantiation examples are provided
+with combinations of the underlying level (S) and time parameter (t/tau). Price, P&L, first-order greeks as well as
+Black-Scholes implied-volatility are computed for plain-vanilla and digital option contracts.
 """
 
 import numpy as np
