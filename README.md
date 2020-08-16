@@ -132,12 +132,7 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
 
 <p align="center">
   <img src="images/fig_calendar_spread_PnL.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_calendar_spread_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-<p align="center">
   <img src="images/fig_calendar_spread_PnL_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_calendar_spread_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
 </p>
 
 
