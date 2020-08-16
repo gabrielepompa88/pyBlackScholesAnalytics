@@ -51,7 +51,9 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 
 ## Examples
 
-Ciao
+|   | description  |
+|:-------------------:|:--------------------------|
+| Ciao.py | ciao ciao ciao |
 
 # Contacts
 
