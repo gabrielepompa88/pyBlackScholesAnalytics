@@ -68,20 +68,7 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 | [bull_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/bull_spread.py) | This example shows usage of `Portfolio` class to create a Bull-Spread option strategy. Basic instantiation examples are provided with combinations of the underlying level (S) and time parameter (t/tau). Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surface-plots Vs time parameter. |
 | [bull_spread_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/bull_spread_other_params.py) | This example shows usage of `Portfolio` class to create a Bull-Spread option strategy. Instantiation examples are provided with combinations of the underlying level (S) and time parameter (t/tau) as well as underlying volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surfaces-plots Vs time parameter. |
 | [calendar_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread.py) | This example shows usage of `Portfolio` class to create a Calendar-Spread option strategy. Basic instantiation examples are provided with combinations of the underlying level (S) and time parameter (t). Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surface-plots Vs time parameter. |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
-| Ciao.py | ciao ciao ciao |
+| [calendar_spread_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread_other_params.py) | This example shows usage of `Portfolio` class to create a Calendar-Spread option strategy. Instantiation examples are provided with combinations of the underlying level (S) and time parameter (t) as well as underlying volatility (sigma) and short-rate (r) parameters. Price, P&L, first-order greeks are computed and plotted using the `Plotter` class as line plots and surfaces-plots Vs time parameter. |
 
 # Contacts
 
