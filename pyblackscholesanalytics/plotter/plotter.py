@@ -442,7 +442,7 @@ class OptionPlotter(Plotter):
         
         - options_plot.py
         - options_plot_other_params.py
-        - example_options_plot_IV.py
+        - options_plot_IV.py
         - example_options_plot_surface.py
     """
 
@@ -458,7 +458,7 @@ class OptionPlotter(Plotter):
         Parameter 'iv' is required to be a pd.DataFrame.
 
         Usage examples: 
-            - example_options_plot_IV.py
+            - options_plot_IV.py
         """
 
         plt.rcParams["axes.prop_cycle"] = plt.cycler("color", plt.cm.Blues(np.linspace(0, 1, len(iv.index))))
