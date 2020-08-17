@@ -86,7 +86,7 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
 
 <p align="center">
   <img src="images/fig_plain_vanilla.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_plain_vanilla_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
+  <img src="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/fig_plain_vanilla_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
 </p>
 
 <p align="center">
