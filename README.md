@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo_pyBlackScholesAnalytics.png" width="500" title="hover text" stlye="max-width:10%;">
+  <img src="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/logo_pyBlackScholesAnalytics.png" width="500" title="hover text" stlye="max-width:10%;">
 </p>
 
 # pyBlackScholesAnalytics
