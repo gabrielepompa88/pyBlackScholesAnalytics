@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/logo_pyBlackScholesAnalytics.png" width="500" title="hover text" stlye="max-width:10%;">
-</p>
+![show logo](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/logo_pyBlackScholesAnalytics.png)
    
 # pyBlackScholesAnalytics
 
