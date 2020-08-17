@@ -17,9 +17,11 @@ Personal_Notes/*
 .idea
 pyBlackScholesAnalytics/.idea
 
+# ignore README_PyPI.md file
+README_PyPI.md
+
 # ignore setup.py file
 setup.py
-
 # dist folder ignored
 !dist/
 dist/**
