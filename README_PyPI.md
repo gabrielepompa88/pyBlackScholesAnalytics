@@ -1,16 +1,6 @@
-![show logo](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/logo_pyBlackScholesAnalytics.png)
-   
 # pyBlackScholesAnalytics
 
-[**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) is a Python package for implementing analytics for options and option strategies under the Black-Scholes Model for educational purposes.
-
-- [Summary](#Summary)
-- [Components](#Components)
-- [Resources](#Resources)
-  - [Tutorials](#Tutorials)
-  - [Examples](#Examples)
-  - [Gallery](#Gallery)
-- [Contacts](#Contacts)
+[**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) is a Python package implementing analytics for options and option strategies under the Black-Scholes Model for educational purposes.
 
 # Summary <a name="Summary"></a>
 
@@ -50,10 +40,10 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 
 |  | Jupyter Notebook | Youtube Video Playlist |
 |:-------------------|:--------------------------:|:------------------:|
-| **Derivatives Analytics - Introduction to Object Oriented Programming**: in this tutorial we introduce _Object-Oriented_ Programming in Python. We first make a non-financial example, developing the intuition behind the need of a change of programming paradigm to be able to cohordinate together different pieces of code. Once we have established the intuition, we then leverage on some basic financial knowledge to develop a Black-Scholes pricer for European call Options, first, and then a more general pricer for Plain-Vanilla put Options as well. | [:notebook:](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Introduction_to_OOP.ipynb) | [:tv:]( https://www.youtube.com/playlist?list=PLRIS0g8TmV1NI7lr2I7BF9wdJ_PK9mVAz) |
-| **Derivatives Analytics - Inheritance and Polymorphism**: in this tutorial we introduce _Inheritance_ and _Polymorphism_ in Python which are two milestones in Object-Oriented programming. We present these concepts introducing Digital cash-or-nothing Options and observing their similarities with Plain-Vanilla Options. Inheritance and Polymorphism allow us to leverage on the financial analogies between these two contracts and eventually represent them more efficiently as derived classes of a unique `EuropeanOption` abstract base class. | [:notebook:](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Inheritance_and_Polymorphism.ipynb) | [:tv:]() |
-| **Derivatives Analytics - Objects Composition**: in this tutorial we introduce _Composition_ which is an additional way to model relationships among objects, alternatively to Inheritance. We present this relationship introducing a common `MarketEnvironment` under which Option contracts are emitted, a `Portfolio` class is designed to aggregate Options and another `Plotter` class is designed to provide visualization routines. Finally, we examine several Option Strategies which uses the architecture implemented so far. | [:notebook:](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Objects_Composition.ipynb) | [:tv:]() |
-| **Derivatives Analytics - Options Greeks**: in this tutorial we introduce Option Greeks. That is, the derivatives of an option price with respect to its pricing parameters. We provide both a numeric computation using _finite-difference_ methods implemented in `NumericGreeks` class and their analytic expression using the Black-Scholes model. Finally, all features introduced in this and previous tutorial are collected in the `pyBlackScholesAnalytics` Python package which is hereby introduced. | [:notebook:](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Options_Greeks.ipynb) | [:tv:]() |
+| **Derivatives Analytics - Introduction to Object Oriented Programming**: in this tutorial we introduce _Object-Oriented_ Programming in Python. We first make a non-financial example, developing the intuition behind the need of a change of programming paradigm to be able to cohordinate together different pieces of code. Once we have established the intuition, we then leverage on some basic financial knowledge to develop a Black-Scholes pricer for European call Options, first, and then a more general pricer for Plain-Vanilla put Options as well. | [.ipynb](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Introduction_to_OOP.ipynb) | [watch]( https://www.youtube.com/playlist?list=PLRIS0g8TmV1NI7lr2I7BF9wdJ_PK9mVAz) |
+| **Derivatives Analytics - Inheritance and Polymorphism**: in this tutorial we introduce _Inheritance_ and _Polymorphism_ in Python which are two milestones in Object-Oriented programming. We present these concepts introducing Digital cash-or-nothing Options and observing their similarities with Plain-Vanilla Options. Inheritance and Polymorphism allow us to leverage on the financial analogies between these two contracts and eventually represent them more efficiently as derived classes of a unique `EuropeanOption` abstract base class. | [.ipynb](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Inheritance_and_Polymorphism.ipynb) | [watch]() |
+| **Derivatives Analytics - Objects Composition**: in this tutorial we introduce _Composition_ which is an additional way to model relationships among objects, alternatively to Inheritance. We present this relationship introducing a common `MarketEnvironment` under which Option contracts are emitted, a `Portfolio` class is designed to aggregate Options and another `Plotter` class is designed to provide visualization routines. Finally, we examine several Option Strategies which uses the architecture implemented so far. | [.ipynb](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Objects_Composition.ipynb) | [watch]() |
+| **Derivatives Analytics - Options Greeks**: in this tutorial we introduce Option Greeks. That is, the derivatives of an option price with respect to its pricing parameters. We provide both a numeric computation using _finite-difference_ methods implemented in `NumericGreeks` class and their analytic expression using the Black-Scholes model. Finally, all features introduced in this and previous tutorial are collected in the `pyBlackScholesAnalytics` Python package which is hereby introduced. | [.ipynb](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/Notebook_Tutorials/Derivatives_Analytics___Options_Greeks.ipynb) | [watch]() |
 
 ## Examples <a name="Examples"></a>
 
@@ -78,71 +68,7 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 
 ## Gallery <a name="Gallery"></a>
 
-Below something you can do using [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) package to whet your appetite:
-
-- See [options_plot.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot.py) example for Plain-Vanilla and Cash-Or-Nothing Digital Options price, P&L and Greeks examples
-
-<p align="center">
-  <img src="images/fig_plain_vanilla.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/fig_plain_vanilla_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-<p align="center">
-  <img src="images/fig_digital.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_digital_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-- See [options_plot_surface.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_surface.py) example for Option surface plots examples 
-
-<p align="center">
-  <img src="images/fig_plain_vanilla_price_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_plain_vanilla_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-<p align="center">
-  <img src="images/fig_digital_price_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_digital_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-- See [options_plot_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_other_params.py) example for more pricing parameters dependency examples  
-
-<p align="center">
-  <img src="images/fig_plain_vanilla_price_Vs_K.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_plain_vanilla_price_Vs_sigma.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-<p align="center">
-  <img src="images/fig_digital_price_Vs_K.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_digital_price_Vs_sigma.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-- See [options_plot_IV.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_IV.py) example for Black-Scholes implied volatility examples  
-
-<p align="center">
-  <img src="images/fig_iv_surf.png" width="600" title="hover text" stlye="max-width:10%;">
-</p>
-
-- See [bull_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/bull_spread.py) example for Bull-Spread Strategy price, P&L and Greeks examples
-
-<p align="center">
-  <img src="images/fig_bull_spread_PnL.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_bull_spread_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-<p align="center">
-  <img src="images/fig_bull_spread_PnL_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_bull_spread_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-- See [calendar_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread.py) example for Calendar-Spread Strategy price, P&L and Greeks examples
-
-<p align="center">
-  <img src="images/fig_calendar_spread_PnL.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_calendar_spread_PnL_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
-
-
-
+See [pyBlackScholesAanlytics Github repository](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/README.md#Gallery) for gallery of images.
 
 # Contacts <a name="Contacts"></a>
 
