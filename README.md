@@ -1,5 +1,9 @@
-<p align="center">
-  <img src="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/logo_pyBlackScholesAnalytics.png" width="500" title="hover text" stlye="max-width:10%;">
+.. image:: https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/logo_pyBlackScholesAnalytics.png
+   :width: 500 px
+   :align: "center"
+   
+   <p align="center">
+  .. image:: https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/images/logo_pyBlackScholesAnalytics.png
 </p>
 
 # pyBlackScholesAnalytics
