@@ -123,7 +123,7 @@ def get_param_dict(option, np_output, case):
                                                          {"r": r_axis,
                                                           "r_axis": True,
                                                           "np_output": np_output},
-                                                     "info": "Case S_scalar_default.t_scalar_default.sigma_axis: (S "
+                                                     "info": "Case S_scalar_default.t_scalar_default.r_axis: (S "
                                                              "scalar, t scalar as time-to-maturity, r vector axis) "
                                                      },
     }
