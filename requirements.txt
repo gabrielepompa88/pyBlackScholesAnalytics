@@ -1,7 +1,4 @@
 alabaster==0.7.12
-anaconda-client==1.7.2
-anaconda-navigator==1.9.7
-anaconda-project==0.8.3
 asn1crypto==1.0.1
 astroid==2.3.1
 astropy==3.2.1
