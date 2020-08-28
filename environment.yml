@@ -178,7 +178,6 @@ dependencies:
   - pyopenssl=19.0.0
   - pyparsing=2.4.2
   - pyqt=5.9.2
-  - pyreadline=2.1
   - pyrsistent=0.15.4
   - pysocks=1.7.1
   - pytables=3.5.2
@@ -243,7 +242,6 @@ dependencies:
   - traitlets=4.3.3
   - unicodecsv=0.14.1
   - urllib3=1.24.2
-  - vs2015_runtime=14.16.27012
   - wcwidth=0.1.7
   - webencodings=0.5.1
   - werkzeug=0.16.0
