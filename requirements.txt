@@ -1,4 +1,3 @@
-_ipyw_jlab_nb_ext_conf==0.1.0
 alabaster==0.7.12
 anaconda==2019.10
 anaconda-client==1.7.2
