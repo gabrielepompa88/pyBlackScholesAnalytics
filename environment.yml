@@ -1,4 +1,4 @@
-  name: pyBlackScholesAnalytics_env
+name: pyBlackScholesAnalytics_env
 channels:
 - conda-forge
 dependencies:
