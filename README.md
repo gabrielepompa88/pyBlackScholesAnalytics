@@ -7,6 +7,7 @@
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) is a Python package implementing analytics for options and option strategies under the Black-Scholes Model for educational purposes.
 
 - [Summary](#Summary)
+- [Installation](#Installation)
 - [Components](#Components)
 - [Resources](#Resources)
   - [Tutorials](#Tutorials) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gabrielepompa88/pyBlackScholesAnalytics/master)
@@ -25,6 +26,14 @@ The package has been developed as a spin-off project of the ["IT for Business an
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) places itself in the middle between the coding style and level of a master student and that required for a junior quant at an investment bank. The aim is to address the gap between the two providing a playground for students to master financial concepts related to options and option strategies and implementing a dedicated comprehensive object-oriented architecture. 
 
 The package itself tries to follow the style guide for Python code [PEP8](https://www.python.org/dev/peps/pep-0008/). Intentional as well as unintentional departures from this style may occur in code. I'd like to thank in advance anyone who will make me aware of possible improvements in style and clarity of code. 
+
+# Installation <a name="Installation"></a>
+
+You can install [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) simply typing 
+
+`pip install pyBlackScholesAnalytics`
+
+Latest version of the package is available on [PyPI](https://pypi.org/project/pyBlackScholesAnalytics/). If you encounter problems during installation please share with me.
 
 # Components <a name="Components"></a>
 
