@@ -113,50 +113,66 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
 - See [options_plot_surface.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_surface.py) example for Option surface plots examples 
 
 <p align="center">
-  <img src="images/fig_plain_vanilla_price_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_plain_vanilla_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+  <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_surface.py">
+    <img src="images/fig_plain_vanilla_price_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+    <img src="images/fig_plain_vanilla_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+  </a>
 </p>
 
 <p align="center">
-  <img src="images/fig_digital_price_surf.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_digital_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+  <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_surface.py">
+    <img src="images/fig_digital_price_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+    <img src="images/fig_digital_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+  </a>
 </p>
 
 - See [options_plot_other_params.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_other_params.py) example for more pricing parameters dependency examples  
 
 <p align="center">
-  <img src="images/fig_plain_vanilla_price_Vs_K.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_plain_vanilla_price_Vs_sigma.png" width="400" title="hover text" stlye="max-width:10%;">
+  <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_other_params.py">
+    <img src="images/fig_plain_vanilla_price_Vs_K.png" width="400" title="hover text" stlye="max-width:10%;">
+    <img src="images/fig_plain_vanilla_price_Vs_sigma.png" width="400" title="hover text" stlye="max-width:10%;">
+  </a>
 </p>
 
 <p align="center">
-  <img src="images/fig_digital_price_Vs_K.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_digital_price_Vs_sigma.png" width="400" title="hover text" stlye="max-width:10%;">
-</p>
+  <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_other_params.py">
+    <img src="images/fig_digital_price_Vs_K.png" width="400" title="hover text" stlye="max-width:10%;">
+    <img src="images/fig_digital_price_Vs_sigma.png" width="400" title="hover text" stlye="max-width:10%;">
+  </a>
+ </p>
 
 - See [options_plot_IV.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_IV.py) example for Black-Scholes implied volatility examples  
 
 <p align="center">
-  <img src="images/fig_iv_surf.png" width="600" title="hover text" stlye="max-width:10%;">
-</p>
+  <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot_IV.py">
+    <img src="images/fig_iv_surf.png" width="600" title="hover text" stlye="max-width:10%;">
+  </a>
+ </p>
 
 - See [bull_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/bull_spread.py) example for Bull-Spread Strategy price, P&L and Greeks examples
 
 <p align="center">
-  <img src="images/fig_bull_spread_PnL.png" width="400" title="hover text" stlye="max-width:10%;">
-  <img src="images/fig_bull_spread_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
+ <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/bull_spread.py">  
+   <img src="images/fig_bull_spread_PnL.png" width="400" title="hover text" stlye="max-width:10%;">
+   <img src="images/fig_bull_spread_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
+  </a>
 </p>
 
 <p align="center">
+ <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/bull_spread.py">  
   <img src="images/fig_bull_spread_PnL_surf.png" width="400" title="hover text" stlye="max-width:10%;">
   <img src="images/fig_bull_spread_gamma_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+ </a>
 </p>
 
 - See [calendar_spread.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread.py) example for Calendar-Spread Strategy price, P&L and Greeks examples
 
 <p align="center">
+ <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/calendar_spread.py">  
   <img src="images/fig_calendar_spread_PnL.png" width="400" title="hover text" stlye="max-width:10%;">
   <img src="images/fig_calendar_spread_PnL_surf.png" width="400" title="hover text" stlye="max-width:10%;">
+</a>
 </p>
 
 
