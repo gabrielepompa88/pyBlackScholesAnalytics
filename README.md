@@ -97,6 +97,13 @@ Below something you can do using [**pyBlackScholesAnalytics**](https://github.co
 - See [options_plot.py](https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot.py) example for Plain-Vanilla and Cash-Or-Nothing Digital Options price, P&L and Greeks examples
 
 <p align="center">
+  <a href="https://github.com/gabrielepompa88/pyBlackScholesAnalytics/blob/master/examples/options_plot.py">
+  <img src="images/fig_plain_vanilla.png" width="400" title="hover text" stlye="max-width:10%;">
+  <img src="images/fig_plain_vanilla_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
+  </a>
+</p>
+
+<p align="center">
   <img src="images/fig_plain_vanilla.png" width="400" title="hover text" stlye="max-width:10%;">
   <img src="images/fig_plain_vanilla_gamma.png" width="400" title="hover text" stlye="max-width:10%;">
 </p>
