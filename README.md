@@ -60,7 +60,7 @@ Moreover several [examples](https://github.com/gabrielepompa88/pyBlackScholesAna
 
 ## Tutorials <a name="Tutorials"></a>
 
-Jupyter Notebooks are available in GitHub, rendered statically with [Jupyter nbviewer]((https://nbviewer.jupyter.org/)) and rendered interactive on your web browser thanks to [Binder](https://mybinder.org/). Moreover, each Notebook is paired with a dedicated Youtube video playlist
+Jupyter Notebooks are available in GitHub, rendered statically thanks to [Jupyter nbviewer](https://nbviewer.jupyter.org/) and interactively on your web browser thanks to [Binder](https://mybinder.org/). Each Jupyter Notebook is complemented with a dedicated Youtube video playlist.
 
 | Jupyter Notebook | GitHub | nbviewer | Binder | Youtube Video |
 |:-------------------|:--------------------------:|:--------------------------:|:--------------------------:|:------------------:|
