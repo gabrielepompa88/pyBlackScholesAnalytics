@@ -10,10 +10,12 @@
 - [Installation](#Installation)
 - [Components](#Components)
 - [Resources](#Resources)
-  - [Tutorials](#Tutorials) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gabrielepompa88/pyBlackScholesAnalytics/master)
+  - [Tutorials](#Tutorials) 
   - [Examples](#Examples)
   - [Gallery](#Gallery)
 - [Contacts](#Contacts)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gabrielepompa88/pyBlackScholesAnalytics/master)
 
 # Summary <a name="Summary"></a>
 
