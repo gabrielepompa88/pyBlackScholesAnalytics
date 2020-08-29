@@ -3,8 +3,9 @@
 </p>
    
 # pyBlackScholesAnalytics
+[![PyPI version](https://badge.fury.io/py/pyBlackScholesAnalytics.svg)](https://badge.fury.io/py/pyBlackScholesAnalytics)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gabrielepompa88/pyBlackScholesAnalytics/master) [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gabrielepompa88/pyBlackScholesAnalytics/tree/master/) [![PyPI version](https://badge.fury.io/py/pyBlackScholesAnalytics.svg)](https://badge.fury.io/py/pyBlackScholesAnalytics)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gabrielepompa88/pyBlackScholesAnalytics/master) [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gabrielepompa88/pyBlackScholesAnalytics/tree/master/) 
 
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) is a Python package implementing analytics for options and option strategies under the Black-Scholes Model for educational purposes.
 
