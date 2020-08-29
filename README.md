@@ -38,7 +38,7 @@ Latest version of the package is available on [PyPI](https://pypi.org/project/py
 
 # Components <a name="Components"></a>
 
-The current version (0.0.1) of the package features the following components:
+The current version of the package features the following components:
 
 - `options`: definitions for `EuropeanOption` abstract base-class as well 
 as `PlainVanillaOption` and `DigitalOption` derived classes
