@@ -4,6 +4,8 @@
    
 # pyBlackScholesAnalytics
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gabrielepompa88/pyBlackScholesAnalytics/master)
+
 [**pyBlackScholesAnalytics**](https://github.com/gabrielepompa88/pyBlackScholesAnalytics) is a Python package implementing analytics for options and option strategies under the Black-Scholes Model for educational purposes.
 
 - [Summary](#Summary)
@@ -14,8 +16,6 @@
   - [Examples](#Examples)
   - [Gallery](#Gallery)
 - [Contacts](#Contacts)
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gabrielepompa88/pyBlackScholesAnalytics/master)
 
 # Summary <a name="Summary"></a>
 
