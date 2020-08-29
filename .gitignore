@@ -36,3 +36,8 @@ build/*
 !pyBlackScholesAnalytics_gabrielepompa88.egg-info/
 pyBlackScholesAnalytics_gabrielepompa88.egg-info/**
 pyBlackScholesAnalytics_gabrielepompa88.egg-info/*
+
+# pyBlackScholesAnalytics.egg-info ignored
+!pyBlackScholesAnalytics.egg-info/
+pyBlackScholesAnalytics.egg-info/**
+pyBlackScholesAnalytics.egg-info/*
