@@ -1,8 +1,7 @@
 import unittest
-import copy
-import numpy as np
 import pandas as pd
 import pandas.testing as pd_test
+import warnings
 
 from pyblackscholesanalytics.market.market import MarketEnvironment
 from pyblackscholesanalytics.options.options import PlainVanillaOption
@@ -13,6 +12,7 @@ class TestPortfolio(unittest.TestCase):
     """Class to test public methods of Portfolio class"""
 
     def setUp(self) -> None:
+        warnings.filterwarnings("ignore")
 
         # common market environment
         mkt_env = MarketEnvironment(t="01-06-2020")
