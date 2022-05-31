@@ -12,6 +12,8 @@ as OptionPlotter and PortfolioPlotter derived classes.
 """
 
 # ----------------------- standard imports ---------------------------------- #
+import logging
+
 # for NumPy arrays
 import numpy as np
 
@@ -27,7 +29,10 @@ from mpl_toolkits.mplot3d import Axes3D
 # ----------------------- sub-modules imports ------------------------------- #
 
 from ..utils.utils import *
+from ..utils.loggingConfig import logger
 
+
+logger = logging.getLogger('pyBlackScholesAnalytics')
 
 # -----------------------------------------------------------------------------#
 
@@ -72,7 +77,7 @@ class Plotter:
 
     def __init__(self, FinancialObject):
 
-        print("Calling the Plotter initializer!")
+        logger.debug("Calling the Plotter initializer!")
 
         # parse informations from FinancialInstrument
         self.fin_inst = FinancialObject

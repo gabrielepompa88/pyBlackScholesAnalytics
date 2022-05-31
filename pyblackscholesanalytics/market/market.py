@@ -10,6 +10,7 @@ Description:
 This file contains the definition of MarketEnvironment class.
 """
 
+from ..utils.loggingConfig import logger
 # ----------------------- sub-modules imports ------------------------------- #
 
 from ..utils.utils import date_string_to_datetime_obj
@@ -47,7 +48,7 @@ class MarketEnvironment:
     """
 
     def __init__(self, t="19-04-2020", r=0.05, S_t=90.0, sigma=0.2):
-        print("Initializing the MarketEnvironment!")
+        logger.debug("Initializing the MarketEnvironment!")
 
         self.__t = date_string_to_datetime_obj(t)
         self.__r = r
