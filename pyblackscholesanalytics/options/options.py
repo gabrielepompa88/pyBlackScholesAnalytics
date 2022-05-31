@@ -12,6 +12,7 @@ as PlainVanillaOption and DigitalOption derived classes.
 """
 
 # ----------------------- standard imports ---------------------------------- #
+import logging
 
 # for statistical functions
 from scipy import stats
@@ -27,9 +28,11 @@ import warnings
 
 # ----------------------- sub-modules imports ------------------------------- #
 
+from ..utils.loggingConfig import logger
 from ..utils.utils import *
 
 
+logger = logging.getLogger('pyBlackScholesAnalytics')
 # -----------------------------------------------------------------------------#
 
 class EuropeanOption:
@@ -116,7 +119,7 @@ class EuropeanOption:
 
     def __init__(self, mkt_env, option_type='call', K=100.0, T="31-12-2020"):
 
-        print("Initializing the EuropeanOption!")
+        logger.debug("Initializing the EuropeanOption!")
 
         # option type check
         if option_type not in ['call', 'put']:
@@ -857,7 +860,7 @@ class EuropeanOption:
                 # iteration counter update
                 iter_num += 1
 
-            print("\nTermination value for Sum of Relative Squared Residuals \
+            logger.debug("\nTermination value for Sum of Relative Squared Residuals \
                   \nbetween n-th and (n+1)-th iteration solutions metric \
                   \n(NaN excluded): {:.1E} (eps = {:.1E}). Iterations: {} \n"
                   .format(SRSR, epsilon, iter_num))
@@ -893,7 +896,7 @@ class EuropeanOption:
                                        ftol=cost_tolerance, xtol=sol_tolerance)
 
             # output message
-            print("\nTermination message: " + res.message + " Success? {}".format(res.success))
+            logger.debug("\nTermination message: " + res.message + " Success? {}".format(res.success))
 
             # optimal iv found
             iv_np1 = res.x
